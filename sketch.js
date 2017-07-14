@@ -237,7 +237,7 @@ function Waves() {
 }
 
 function GameOver() {
-	if(objects.length > 10) {
+	if(objects.length > 50) {
 		pausefunction();
 		end = true;
 }
